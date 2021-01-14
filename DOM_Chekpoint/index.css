@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div img {
+  height: 300px;
+}
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.content {
+  /* display: flex;
+  */
+  height: auto;
+  padding: 3%;
+  margin: 0;
+  border-radius: 10px;
+  color: white;
+  background-color: grey;
+}
+/*div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}*/
+.remove img {
+  width: 40px;
+  height: 40px;
+}
+.likebutton img {
+  width: 40px;
+  height: 40px;
+}
+
+.grey img {
+  filter: grayscale(100%);
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.carousel-item {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 700px;
+}
+.logo img {
+  height: 60px;
+  width: 60px;
+  margin-left: 60px;
+  margin-right: 7px;
+}
+.nav-item h2 {
+  margin-top: 7px;
+  margin-left: 3px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #198754;
+}
+.container-fluid {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.selection {
+  margin-top: 14px;
+  font-size: 18px;
+  padding: 0 15px 0 15px;
+  cursor: pointer;
+}
+.selection:hover {
+  color: #198754;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-item {
+  margin: 0;
+}
+
+.item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.cc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.bt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+div h3 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
